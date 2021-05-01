@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+#evernote-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.quill {
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+}
+.ql-container {
+  box-sizing: border-box;
+  height: calc(100% - 42px);
+  overflow-y: scroll;
+}
+.ql-editor {
+  cursor: text;
+  word-break: break-all;
+}
+.MuiListItem-root.Mui-selected {
+  background-color: #d4d8e8 !important;
+}
+.no-note-selected {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 165px);
+}
+.container {
+  display: flex;
+}
+#sidebar {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
