@@ -25,6 +25,7 @@ const SidebarItem = ({
         className={classes.listItem}
         selected={selectedNoteIndex === _index}
         align-items="flex-start"
+        onClick={() => selectNote(_note, _index)}
       >
         <div
 
