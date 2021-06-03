@@ -15,7 +15,7 @@ function App() {
       {
         <div className="container">
           <Sidebar setNote={setNote} note={note} />
-          {selectedNote && <Editor setNote={setNote} note={note} />}
+          {selectedNote && <Editor note={note} />}
         </div>
       }
     </div>
